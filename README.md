@@ -108,7 +108,7 @@ const images = [
 
 This component is styled with [CSS modules](https://github.com/css-modules/css-modules). For theming, you can 
 wrote your styles in any preprocessor, but, you need to generate a 
-CSS module with your task tool. We recommend webpack. For example usig PostCSS:
+CSS module with your task tool. We recommend webpack. For example using PostCSS:
 
 ```javascript
 {
@@ -119,9 +119,9 @@ CSS module with your task tool. We recommend webpack. For example usig PostCSS:
 
 Then you can pass the import theme to the component:
 
-import customTheme from 'assets/styles/custom-theme.css';
-
 ```javascript
+import customTheme from 'styles/custom-theme.css';
+
 <Artwork
   ...
   theme={customTheme}
