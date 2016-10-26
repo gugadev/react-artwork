@@ -130,8 +130,8 @@ import customTheme from 'assets/styles/custom-theme.css';
 - [x] Enable shadows.
 - [x] Consume images from folder or pass them as an array.
 - [x] Customize animation's duration.
-- [] Customize animation's timmig function.
-- [] Implements tests with Enzyme and Jest/?.
+- [ ] Customize animation's timmig function.
+- [ ] Implements tests with Enzyme and Jest/?.
 
 ## Contribute
 
