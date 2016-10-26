@@ -7,6 +7,10 @@ Show your photos or any artworks on a cool (and draggable) way.
 
 You can see the component working [here](https://guzgarcia.github.io/react-artwork/).
 
+## Install
+
+`npm install react-artwork`
+
 ## How it works
 
 This is not a carousel component, we have already a [excellent carousel](https://github.com/akiran/react-slick) written in React. 
