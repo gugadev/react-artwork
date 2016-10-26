@@ -1,8 +1,11 @@
 # React Artwork
 Show your photos or any artworks on a cool (and draggable) way.
 
-
 ![Imgur](http://i.imgur.com/WMIeedi.gif)
+
+## Online demo
+
+You can see the component working [here](https://guzgarcia.github.io/react-artwork/).
 
 ## How it works
 
