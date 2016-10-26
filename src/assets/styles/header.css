@@ -1,0 +1,41 @@
+.header {
+  background-color: rgba(0, 0, 0, .55);
+  left: 0;
+  padding: .8rem;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  & h3 {
+    color: rgba(255, 255, 255, .85);
+    font-family: 'Marvel', arial;
+    font-size: 2rem;
+    margin: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+  }
+  & .settings {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 20px;
+    opacity: .5;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: opacity .25s ease;
+    width: 30px;
+    & img {
+      height: 100%;
+      width: 100%;
+    }
+    &:hover {
+      opacity: 1;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

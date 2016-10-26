@@ -1,0 +1,14 @@
+// logs
+*.log
+.DS_Store*
+
+// specific folders
+node_modules/
+example/
+src/
+
+// settings files
+.babelrc
+.eslintrc
+webpack.config.babel.js
+.gitignore

@@ -1,0 +1,10 @@
+.popup {
+  background-color: #f9f9f9 !important;
+  color: #333 !important;
+  top: 9px !important;
+  &.place-left:after {
+    border-left-color: #f9f9f9 !important;
+    border-left-style: solid !important;
+    border-ñeft-width: 6px !important;
+  }
+}

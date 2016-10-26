@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.region {
+  padding: 1rem;
+  text-align: center;
+  &:first-of-type {
+    background-color: #16a085;
+    flex-basis: 40%;
+  }
+  &:last-of-type {
+    background-color: #f1c40f;
+    flex-basis: 60%;
+  }
+}
+
+h1 {
+  color: #fff;
+  font-family: 'schoolbell';
+}
+
+#albums {
+  display: inline-block;
+  height: 450px;
+  width: 400px;
+}
+
+#cities {
+  display: inline-block;
+  height: 450px;
+  width: 700px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .region {
+    display: block;
+  }
+}

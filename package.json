@@ -1,0 +1,64 @@
+{
+  "name": "react-artwork",
+  "version": "0.0.1",
+  "description": "Show photos or any artworks on a cool way",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guzgarcia/react-artwork.git"
+  },
+  "keywords": [
+    "artwork",
+    "react",
+    "component",
+    "react-artwork"
+  ],
+  "author": "Gustavo García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guzgarcia/react-artwork/issues"
+  },
+  "homepage": "https://github.com/guzgarcia/react-artwork#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel": "^6.5.2",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-react": "^6.16.0",
+    "classnames": "^2.2.5",
+    "copy-webpack-plugin": "^4.0.0",
+    "css-loader": "^0.25.0",
+    "cssnano": "^3.7.7",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "imports-loader": "^0.6.5",
+    "postcss": "^5.2.4",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.13.0",
+    "postcss-nesting": "^2.3.1",
+    "react-css-modules": "^3.7.10",
+    "react-draggable": "^2.2.2",
+    "react-tooltip": "^3.2.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  },
+  "peerDependencies": {
+    "es6-promise": "^4.0.5",
+    "eventemitter2": "^2.1.3",
+    "whatwg-fetch": "^1.0.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
+}

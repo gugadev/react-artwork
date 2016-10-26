@@ -1,0 +1,28 @@
+.control {
+  background-color: rgba(0, 0, 0, .7);
+  bottom: 0;
+  display: inline-block;
+  left: 0 !important;
+  padding: .5rem;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  & button {
+    background-color: rgba(255, 255, 255, .45);
+    border: 1px solid #999;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 15px;
+    margin: 0 4px;
+    transition: background-color .4s ease;
+    width: 15px;
+    &.active {
+      background-color: #fff;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

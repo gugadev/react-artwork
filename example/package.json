@@ -1,0 +1,36 @@
+{
+  "name": "react-artwork-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Gustavo García",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "eventemitter2": "^2.1.3",
+    "express": "^4.14.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel": "^6.5.2",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "cssnano": "^3.8.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-loader": "^1.0.0",
+    "postcss-nesting": "^2.3.1",
+    "react": "^15.3.2",
+    "react-artwork": "file:///D:\\Frontend\\react-artwork\\react-artwork-0.0.1.tgz",
+    "react-dom": "^15.3.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}

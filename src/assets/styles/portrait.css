@@ -1,0 +1,20 @@
+@import 'skeleton.css';
+
+.portrait {
+  /*border: 1px solid rgba(0, 0, 0, .7);*/
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+  width: 100%;
+  &.draggable {
+    & .body {
+      cursor: move;
+    }
+  }
+  & .body {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}

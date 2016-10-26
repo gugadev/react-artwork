@@ -1,0 +1,26 @@
+.screen {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  &.pushy {
+    transition-property: opacity, transform;
+    transition-timing-function: ease;
+  }
+  &.fady {
+    transition-property: opacity;
+    transition-timing-function: ease;
+  }
+  & img {
+    &:not([data-loading="true"]) {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
