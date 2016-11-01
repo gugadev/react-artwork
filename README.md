@@ -1,7 +1,9 @@
 # React Artwork
 Show your photos or any artworks on a cool (and draggable) way.
 
-![Imgur](http://i.imgur.com/WMIeedi.gif)
+<p align="center">
+  <img src="http://i.imgur.com/WMIeedi.gif" />
+></p>
 
 ## Online demo
 
