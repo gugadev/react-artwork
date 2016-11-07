@@ -1,4 +1,7 @@
-# [React Artwork](https://github.com/guzgarcia/react-artwork)
+<h1 align="center">
+  <a href="https://github.com/guzgarcia/react-artwork">React Artwork</a>
+</h1>
+
 Show your photos or any artworks on a cool (and draggable) way.
 
 <p align="center">
