@@ -10,7 +10,7 @@ Show your photos or any artworks on a cool (and draggable) way.
 
 ## Online demo
 
-You can see the component working [here](https://guzgarcia.github.io/react-artwork/).
+You can see the component working [here](https://gugadev.github.io/react-artwork/).
 
 ## Install
 
